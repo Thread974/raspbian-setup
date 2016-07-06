@@ -19,10 +19,10 @@ That take some time, so to ease that process this script generate a raspbian ima
 
     ./raspbian-setup.sh image hostname network psk id_rsa.pub
 
-image is the name of a raspbian image file (I used 2016-05-27-raspbian-jessie-lite.img)
-hostname will be the desired hostname
-network is the SSID of a wifi access point and psk is the key (wpa)
-id_rsa.pub is your ssh public key, you can generate one specific to this purpose with ssh-keygen
+image is the name of a raspbian image file (I used 2016-05-27-raspbian-jessie-lite.img)  
+hostname will be the desired hostname  
+network is the SSID of a wifi access point and psk is the key (wpa)  
+id_rsa.pub is your ssh public key, you can generate one specific to this purpose with ssh-keygen  
 
 See http://github.com/thread974/raspbian-setup
 
